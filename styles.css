@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+.card
+{
+	width:350px;
+	background-color:rgb(241, 241, 241);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height: 550px;
+    padding-inline: 30px;
+    padding-top: 30px;    
+}
+.card>div
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.pricing>h1
+{
+    font-weight: 900;
+    font-size: 50px;
+}
+.desc{
+    width:100%;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.price{
+    font-weight: 400;
+    font-size: 35px;
+}
+
+button
+{
+    height: 40px;
+    width: 80px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
